@@ -1,0 +1,156 @@
+.start{
+    display: block;
+}
+
+.total{
+    height: 180px;
+    width: 750px;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: #282c30;
+    
+}
+
+#h1, #end{
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    
+}
+.btn_start, .btn_exit, .restart, .btn_exit1{
+    
+    height: 60px;
+    width: 250px;
+    margin-left: 620px;
+    margin-top: 100px;
+    background-color: #282c30;
+    
+
+    
+}
+.btn_exit, .btn_exit1{
+    margin-top: 25px;
+}
+
+
+#text{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.question-div{
+    width: 1000px;
+    height: 260px;
+    background-color: #282c30;
+    margin-left: 220px;
+    margin-top: 110px;
+    position: relative;
+}
+
+#title{
+    position: absolute;
+    color: white;
+    margin-top: 80px;
+    font-size: 50px;
+    margin-left: 450px;
+}
+.sual{
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    margin-left: 450px;
+    margin-top:150px ;
+}
+
+.answer1, .answer2{
+    display: flex;
+    gap: 50px;
+}
+.answer-btn1{
+    margin-top: 70px;
+    margin-left: 220px;
+    width: 300px;
+    height: 50px;
+    background-color: #282c30;
+
+}
+.answer-btn2{
+    margin-top: 70px;
+    width: 300px;
+    height: 50px;
+    background-color: #282c30;
+
+}
+.answer-btn3{
+    margin-top: 70px;
+    width: 300px;
+    height: 50px;
+    background-color: #282c30;
+    border-radius: 3px;
+}
+span{
+    color: white;
+    font-size: 30px;
+}
+.question-part{
+    display: none;
+}
+
+.cavab1{
+    position: relative;
+    border: 1px solid grey;
+    margin-left: 220px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.cavab2{
+    position: relative;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;   
+    
+}
+.cavab3{
+    position: relative;
+    border: 1px solid grey;
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.span1, .span2, .span3{
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    margin-left:30px ;
+    margin-top: 12px;
+
+}
+
+
+.progress-bar{
+    margin-left: 210px;
+    margin-top: 30px;
+    height: 15px;
+    width: 1000px ;
+    background-color: #efefef;
+    border-radius: 7px;
+}
+.indicator{
+    background-color: rgb(19, 115, 19);
+    height: 100%;
+    width: 0%;
+    border-radius: 7px;
+    
+}
+
+.finish{
+    display: none;
+}
